@@ -12,6 +12,7 @@
 		135F2A2624ABD720003A217B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 135F2A2424ABD720003A217B /* Main.storyboard */; };
 		135F2A2824ABD721003A217B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 135F2A2724ABD721003A217B /* Assets.xcassets */; };
 		135F2A2B24ABD721003A217B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 135F2A2924ABD721003A217B /* LaunchScreen.storyboard */; };
+		135F2A6D24ABEDDD003A217B /* ViewControllerDos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135F2A6C24ABEDDD003A217B /* ViewControllerDos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,8 @@
 		135F2A2724ABD721003A217B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		135F2A2A24ABD721003A217B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		135F2A2C24ABD721003A217B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		135F2A6C24ABEDDD003A217B /* ViewControllerDos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerDos.swift; sourceTree = "<group>"; };
+		135F2A6E24ABF7BC003A217B /* ProtocolosDelegados.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ProtocolosDelegados.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +59,12 @@
 			children = (
 				135F2A2024ABD720003A217B /* AppDelegate.swift */,
 				135F2A2224ABD720003A217B /* ViewController.swift */,
+				135F2A6C24ABEDDD003A217B /* ViewControllerDos.swift */,
 				135F2A2424ABD720003A217B /* Main.storyboard */,
 				135F2A2724ABD721003A217B /* Assets.xcassets */,
 				135F2A2924ABD721003A217B /* LaunchScreen.storyboard */,
 				135F2A2C24ABD721003A217B /* Info.plist */,
+				135F2A6E24ABF7BC003A217B /* ProtocolosDelegados.playground */,
 			);
 			path = Tablas;
 			sourceTree = "<group>";
@@ -136,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				135F2A2324ABD720003A217B /* ViewController.swift in Sources */,
+				135F2A6D24ABEDDD003A217B /* ViewControllerDos.swift in Sources */,
 				135F2A2124ABD720003A217B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +288,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TRQP84EU4F;
 				INFOPLIST_FILE = Tablas/Info.plist;
@@ -291,6 +298,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.addymac.Tablas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,6 +308,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TRQP84EU4F;
 				INFOPLIST_FILE = Tablas/Info.plist;
@@ -309,6 +318,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.addymac.Tablas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
